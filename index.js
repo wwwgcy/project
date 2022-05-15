@@ -8,8 +8,7 @@
 //可以使用 clear 清除屏幕信息
 
 // 查看状态精简命令： git status -s
-// ？？这个表示当前文件未被追踪的意思
-
+// ？？这个表示当前文件未被追踪的意
 // 跟踪新文件 git add  你要追踪的文件
 // A 表示当前文件已处于追踪文件了g
 
@@ -43,3 +42,12 @@
 // git commit -a -m "描述消息"
 // git rm -f "移除信息" 从 git 仓库和工作区中移除 index.js 文件
 // git rm --cached index.css  只从 git 仓库中移除 index.css 但保留工作区中的 index.css 文件
+// gitignore  添加忽略文件
+// git log  查看提交记录
+// git reset --hard commitId 回退到之前指定的版本
+
+
+
+
+// 大家在使用 https 协议去推送的时候 有可能会有问题
+//1、正常会弹出
